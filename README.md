@@ -4,6 +4,8 @@ SCI59 is an entirely new token distribution model for the Ethereum network. Cael
 
 SCI59 will be the primary token for using any Caelum related project.
 
+**This document is only a draft and collection of things we need to write down**
+
 ## Deployment
 In order to deploy the entire project, a few steps are needed. Since SCI59 uses abstract contracts, all contract must be deployed seperated. This approach has the benefit that the contract can be updated in the future, eliminating the need to fork or redeploy a new token should any issue occur.
 
