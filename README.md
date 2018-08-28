@@ -89,12 +89,12 @@ The remaining reward then goes towards the masternodes. The reward structure is 
 
 **Graphical overview of reward distributions during first year**
 
-https://s8.postimg.cc/9dlpx1wmt/Plot_4.jpg
+![Alt text](https://s8.postimg.cc/9dlpx1wmt/Plot_4.jpg)
 
 
 **Graphical overview of reward distributions on longer term**
 
-https://s8.postimg.cc/9dlpx1h79/Plot_2.png
+![Alt text](https://s8.postimg.cc/9dlpx1h79/Plot_2.png)
 
 ### Conclusion
 
