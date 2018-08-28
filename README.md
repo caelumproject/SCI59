@@ -4,8 +4,6 @@ SCI59 is an entirely new token distribution model for the Ethereum network. Cael
 
 SCI59 will be the primary token for using any Caelum related project.
 
-**This document is only a draft and collection of things we need to write down**
-
 ## Deployment
 In order to deploy the entire project, a few steps are needed. Since SCI59 uses abstract contracts, all contract must be deployed seperated. This approach has the benefit that the contract can be updated in the future, eliminating the need to fork or redeploy a new token should any issue occur.
 
@@ -16,8 +14,13 @@ In order to deploy the entire project, a few steps are needed. Since SCI59 uses 
 The `SCI59TokenBase` contract is now ready to start minting using 0xbitcoin mining software of your choice.
 Input the `SCI59TokenBase` address in the mining software to start mining SCI59 tokens.
 
+## Distribution of SCI59 explained
 
-## Masternode rewards
+Before we understand why a masternode reward system matters, and what advantages it offers, we need to understand how the entire supply will be distributed over the cours of multiple years.
+
+
+
+### Masternode rewards
 
 The usage of masternode rewards has proven to be an easy distribution method, gaining a passive amount of tokens in return for a collateral amount of tokens. This system, first introduced in Dash, has gained a lot of popularity over regular Proof of Work mining methods.
 
@@ -25,7 +28,7 @@ While many tokens and dapps exists on the Ethereum network, none has been innova
 
 Tough the concept of raising large capitals may be tempting, the Caelum Project team decided to launch the project without an ICO event. We created and developed the code in our own time, choosing innovation and technology over quick cash.
 
-## Reward structure
+### Reward structure
 
 Caelum Project will use what's known as a fair reward structure. This simply means that anyone can join the project and have an equal chance to earn SCI59 tokens.
 
@@ -84,6 +87,17 @@ Equally, we takes measures that prevent our userbase to stop mining once the PoW
 This function calculates the reward in relation to the mining stage. If we would be in stage 4, the reward is calculated as 40%.
 The remaining reward then goes towards the masternodes. The reward structure is always 100% of the initial `reward` amount, divided between the PoW and Masternodes in relation to the mining stage as percentage. This means that SCI59 launches as 100% Proof of Work and 0% Masternode, and with each mining phase (4500 blocks), 10% will be decreased from the PoW and increased at Masternode rewards until we reached 100% masternode rewards (98% masternode, 2% miners as explained above)
 
+**Graphical overview of reward distributions during first year**
 
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~walschots/4.embed"></iframe>
 
+**Graphical overview of reward distributions on longer term**
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~walschots/2.embed"></iframe>
 
+### Conclusion
+
+Masternodes are a good way to distribute tokens, where only a small amount of input is required to obtain enough tokens to use as collateral for setting up the masternode. 
+
+In our 144 week example, only 7% of the total rewards will be distributed to miners, where 78% will be distributed amongst masternodes. The biggest cavaet for the holders is that mining is required to obtain enought tokens to enjoy the masternode distribution method; This trivial approach ensures a durable solution where SCI59 tokens will have an intrestic value because of the mining fees.
+
+When taking these calculations in consideration, it's important that the user is aware that every masternode will receive a block reward in turn, just like any other masternode system. Once every masternode holder has been payed, a new round opens and the payout starts from the first address in line.
