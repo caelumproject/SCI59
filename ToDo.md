@@ -10,6 +10,9 @@
 - Extended truffle tests
 
 
+## Updates
+- Had to compress all contracts in 1 single. Gas costs went trough the roof when fetching / storing data via multiple contracts.
+
 ### ToDo
 
 - Secure functions (owner, externalcontract, ...)
