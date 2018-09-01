@@ -46,7 +46,7 @@ Depending on the software version, you might need to change `config web3provider
 
 ### Start the mining software
 
-If you could not change the miner account/private key (depending of software), you might need to enter `accounts list` in the miner terminal. If no account exists, use `accounts new`. Fund the selected address via [https://faucet.ropsten.be/](https://faucet.ropsten.be/)
+If you could not change the miner account/private key (depending of software), you might need to enter `accounts list` in the miner terminal. If no account exists, use `accounts new`. **Fund the selected address** via [https://faucet.ropsten.be/](https://faucet.ropsten.be/)
 
 You should now be mining SCI59 tokens!
 
