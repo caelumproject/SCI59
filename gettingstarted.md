@@ -112,6 +112,14 @@ You are now registered as masternode, and will continue to receive rewards until
 
 
 
+Stop as masternode
+----
+If for whatever reason you want to stop being a masternode on SCI59, you can do so by repeating the steps in section **Become a masternode**, only replacing the `depositToken` in the dropdown box with the `withdrawToken` function.
+
+This will send your tokens back, and removes you from the masternode reward list. Please note that you can only enter as masternode again on the next round.
+
+
+
 
 
 
