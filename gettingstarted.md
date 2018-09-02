@@ -1,5 +1,7 @@
 # [Caelum project] SCI59 Token 
 
+This guide is a quickstart tutorial. Most technical setup will depend on the mining software of your choice.
+
 Mining instructions
 ---
 Please note that the following instructions apply to the Ropsten testnet version **only**.
